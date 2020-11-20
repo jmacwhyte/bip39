@@ -309,7 +309,7 @@
     for (var i = 0; i < b.length; i++) {
       var n = b[i];
       addressList += n.address;
-      if (i < b.length - 1) addressList += "|";
+      if (i < b.length - 1) addressList += ",";
       phraseList[n.address] = n.phrase;
     }
       
